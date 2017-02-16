@@ -1,0 +1,68 @@
+body {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/stars.jpg");
+}
+
+
+#banter {
+  font-family: "Franklin Gothic Book";
+  color: #4BD5EE;
+  text-align: center;
+  width: 82%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+#formBlock div{
+  text-align: center;
+
+}
+
+#formBlock input, textarea {
+  display: inline-block;
+  float: left;
+  margin: 3px;
+  margin-top: 7px;
+}
+
+#formBlock label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+  margin-top: 7px;
+}
+
+#formBlock input[type=submit]{
+  vertical-align: bottom;
+  margin-top: 25px;
+}
+
+#error {
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+#success {
+  text-align: center;
+  color: #A2F900;
+  display: none;
+}
+
+footer {
+  position: absolute;
+  margin-left: 200 em;
+  bottom: 0;
+}
+
+.Yoda-image{
+  height: 150px;
+  width: auto;
+  background: url("../Images/Yoda.png") no-repeat center center;
+  background-size: contain;
+}
